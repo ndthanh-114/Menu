@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:src="@drawable/e"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Name"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/time"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="12:20 pm"/>
+        <ImageView
+            android:id="@+id/favorite"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@android:drawable/btn_star_big_off"/>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="260dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/name"
+            android:text="Hi y'all!!"/>
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="260dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/title"
+            android:text="There is only 48 hours left to get Early..."/>
+    </RelativeLayout>
+
+</LinearLayout>
